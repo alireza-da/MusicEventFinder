@@ -37,6 +37,8 @@ public class ArtistListViewAdaptor extends ArrayAdapter<Artist> {
         layoutResourceId = resource;
     }
 
+
+
     @Override
     public int getCount() {
         return data.size();
